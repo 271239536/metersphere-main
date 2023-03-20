@@ -27,6 +27,7 @@ import org.springframework.context.annotation.PropertySource;
         MinioProperties.class,
         JmeterProperties.class
 })
+
 public class TrackApplication {
     public static void main(String[] args) {
         SpringApplication.run(TrackApplication.class, args);
